@@ -1,0 +1,13 @@
+@use "_caja";
+@use "_sec1";
+@use "_footer";
+@use "_noticias";
+@use "_clima";
+@use "_cardClima";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

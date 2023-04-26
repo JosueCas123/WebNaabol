@@ -1,0 +1,144 @@
+.sec1{
+  width: 100%;
+  height: 300px;
+  background: url(../img/fondoMV.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px 0;
+  .sec1__caja{
+   width: 90%;
+   max-width: 1440px;
+   margin: 0 auto;
+   display: flex;  
+   .sec1__caja1{
+     display: flex;
+      flex-direction: column;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.30);
+      padding: 20px 30px;
+       .sec1__p{
+       font-size: 30px;
+       }
+       .sec1__h2{
+        font-size: 30px;
+       }
+    }
+  }
+}
+
+.sec2{
+  background-color: #F2F2F2;
+  .sec2__caja1{
+    background-color: white;
+    width: 90%;
+    max-width: 1440px;
+    padding: 50px 30px;
+    margin:  0 auto;
+    border-radius: 15px;
+    transform: translateY(-80px); 
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    .sec2__container{
+      width: 95%;
+      margin: 0 auto;
+      .sec2__title{
+        display: flex;
+        flex-direction: row-reverse; 
+        font-size: 30px;
+        margin: 10px 0; 
+        color: #151C4A;
+      }
+   
+
+      
+      .sec2__con{
+        .sec2__h5{
+           font-size: 30px;
+           margin: 10px 0;
+           color: #151C4A
+        }
+        .sec2__p{
+          font-size: 20px;
+          padding: 20px 0;
+          color: black;
+        }
+        .sec2__ul{
+         font-size: 20px;
+          padding: 20px 0;
+          color:#151C4A; 
+        
+        }
+        .sec2__li{
+          color: black;
+          margin:  10px 0;
+          .sec2__span{
+            font-weight: bold;
+          }
+        }
+        //*Img
+        .sec2__img{
+         width: 100%;
+         padding: 30px;
+         img{
+           width: 100%;
+           height: auto;
+          }
+        }
+
+        //*tablas
+        .sec2__table{
+          width: 100%;
+          border: 1px solid black;
+          margin: 15px 0;
+          .sec2__thead{
+            width: 100%;
+            .sec2__tr{
+              .sec2__th{
+              font-size: 20px;
+               background-color: #151C4A;
+               color: white;
+              }
+            
+            }
+          }
+          .sec2__tbody{
+            .sec2__tr{
+              
+              .sec2__td{
+                .sec2__p{
+                  padding: 5px 5px;
+                  font-size: 15px;
+                  i{ 
+                    font-size: 30px;
+                    margin:  0 5px  ;
+                  }
+                }
+                .fecha{
+                  text-align: center;
+                }
+                .decarga{
+                  width: 100px;
+                  margin: 0 auto;
+                  text-decoration: none;
+                  background-color: #76bc5b;
+                  color: white;
+                  padding: 5px;
+                  border-radius: 10px;
+                  font-size: 13px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-evenly;
+                  .btn{
+                    margin: 0 3px;
+                  
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

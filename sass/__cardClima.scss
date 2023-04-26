@@ -1,0 +1,53 @@
+.sec__clima--cuidades{
+    display: flex;
+   justify-content: center;
+   column-gap: 20PX;
+   flex-wrap: nowrap;
+
+
+    .sec__ciudadesClima{
+        width: 219px;
+        height: 190px;
+        padding: 20px;
+        margin-top: 30PX;
+        border-radius: 30px;
+        background-color: #1c2563;
+
+        .title__ciudad{
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .sec__descripcion{
+            padding-top: 10px;
+
+            .temperatura__cuidades{
+                color: white;
+                text-align: center;
+                font-size: 30px;
+               
+            }
+            
+        }
+        
+    }
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 4s;
+  }
+  
+
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+@media screen and (max-width: 768px) {
+    .sec__clima--cuidades{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       justify-items: center;
+    }    
+
+}

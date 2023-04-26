@@ -1,0 +1,569 @@
+@charset "UTF-8";
+.caja {
+  width: 100%;
+  height: 50px;
+  background-color: #1c2563;
+}
+.caja .caja11 {
+  color: white;
+}
+.caja .caja1 {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.caja .caja2__a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 0 5px;
+}
+.caja .caja3 .caja3__a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 0 5px;
+}
+
+.nav {
+  height: 70px;
+  background-color: #33363a;
+}
+.nav .nav__caja {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .nav__caja .nav__log {
+  height: 100%;
+}
+.nav .nav__caja .nav__log .nav__img {
+  height: 100%;
+  width: 70px;
+}
+.nav .nav__nav {
+  font-size: 30px;
+}
+.nav .nav__nav a {
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 6 0px;
+  background-color: #1c2563;
+  position: sticky;
+  top: 0.1px;
+}
+header .caja {
+  width: 78%;
+  margin: 0 auto;
+  height: 60px;
+  position: sticky;
+  top: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .caja .logo {
+  width: 15%;
+  height: 100%;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+header .caja .logo img {
+  width: 80px;
+}
+header .caja nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
+header .caja nav .articulos {
+  height: 100%;
+  display: flex;
+}
+header .caja nav .articulos ul,
+header .caja nav .articulos ol {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+header .caja nav .articulos .navega {
+  width: 100%;
+  margin: auto;
+  padding: 10px 0 0 0;
+}
+header .caja nav .articulos .navega li a {
+  color: #2a3855;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  font-weight: bold;
+  color: white;
+}
+header .caja nav .articulos .navega > li {
+  float: left;
+}
+header .caja nav .articulos .navega li ul {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+}
+header .caja nav .articulos .navega li:hover > ul {
+  display: block;
+  background-color: rgb(8, 5, 5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 810px) {
+  .caja {
+    height: 70px;
+  }
+  .caja .caja1 .caja2__a {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .caja {
+    height: 70px;
+  }
+}
+.sec1 {
+  width: 100%;
+  background: url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sec1 .sec1__caja {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.sec1 .sec1__caja .sec1__caja1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 0;
+}
+.sec1 .sec1__caja .sec1__caja1 .sec1__text .sec1__p {
+  font-size: 30px;
+}
+.sec1 .sec1__caja .sec1__caja1 .sec1__text .sec1__h1 {
+  font-size: 40px;
+}
+.sec1 .sec1__caja .sec1__caja2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.sec1 .sec1__caja .sec1__caja2 .sec1__card {
+  width: 90%;
+  background-color: white;
+  margin: 10px;
+  width: 100px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.sec1 .sec1__caja .sec1__caja2 .sec1__card .sec1__a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.sec1 .sec1__caja .sec1__caja2 .sec1__card .sec1__img {
+  width: 70px;
+}
+.sec1 .sec1__caja .sec1__caja3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 30px 0;
+  border-radius: 30px;
+}
+.sec1 .sec1__caja .sec1__caja3 .sec1__card {
+  background-color: #74b3ce;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+.sec1 .sec1__caja .sec1__caja3 .sec1__card .sec1__in {
+  position: relative;
+  margin: 0 10px;
+}
+.sec1 .sec1__caja .sec1__caja3 .sec1__card .sec1__input {
+  border: 1px solid #74b3ce;
+  height: 40px;
+  width: 300px;
+  padding-right: 30px;
+  border-radius: 30px;
+  padding-left: 10px;
+}
+.sec1 .sec1__caja .sec1__caja3 .sec1__img1 {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.sec1 .sec1__caja .sec1__caja3 .sec1__vuelos .sec1__a {
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+.sec1 .sec1__caja .sec1__caja3 .sec1__vuelos .sec1__a:hover {
+  color: white;
+}
+.sec1 .sec1__caja .sec1__caja3 .sec1__vuelos .sec1__img {
+  width: 20px;
+  margin: 10px;
+}
+
+/*tablet*/
+@media screen and (max-width: 768px) {
+  .sec1__caja {
+    display: block;
+  }
+  .sec1__caja .sec__clima {
+    margin: 150px;
+  }
+}
+/*tablet*/
+@media screen and (max-width: 810px) {
+  .sec1 .sec1__caja .sec1__caja1 {
+    flex-direction: column;
+  }
+  .sec1 .sec1__caja3 .sec1__card {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec1 .sec1__caja3 .sec1__img1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 535px) {
+  .sec1 .sec1__caja .sec1__caja1 {
+    flex-direction: column;
+  }
+  .sec1 .sec1__caja3 .sec1__card {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec1 .sec1__caja3 .sec1__card .sec1__input {
+    width: 100px;
+  }
+}
+.foot {
+  background-color: #33363a;
+  padding: 30px 0;
+  font-size: 12px;
+}
+.foot .foot__card {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot .foot__card .foot_card1 .foot__ul {
+  list-style: none;
+}
+.foot .foot__card .foot__card2 {
+  margin: 10px 0 0 0;
+  display: flex;
+}
+.foot .foot__card .foot__card2 .foot__ul {
+  list-style: none;
+}
+.foot .foot__card .foot__card2 .foot__ul .foot__li1 {
+  display: flex;
+}
+.foot .foot__card .foot__card2 .foot__ul .foot__li1 .foot__img {
+  width: 40px;
+  height: 43px;
+}
+.foot .foot__card .foot__card2 .foot__ul .foot__li1 .foot__caja {
+  padding: 0 0 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.foot .foot__card .foot__card2 .foot__ul .foot__li1 .foot__a {
+  color: #99b6ff;
+  text-decoration: none;
+}
+.foot .foot__card .foot__card3 {
+  margin: 10px 0 0 0;
+}
+
+@media screen and (max-width: 800px) {
+  .foot .foot__card {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .foot .foot__card .foot__card3 {
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+  }
+}
+.main__contenedor {
+  width: 100%;
+  height: 100vh;
+}
+
+.sec2__noticias {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column-reverse;
+  background: url(../img/fondo2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.sec2__noticias .sec3__title, .sec2__noticias h2 {
+  margin: 30px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 2;
+}
+.sec2__noticias .fondo__tranparente {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contenedor {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.card__contenedor {
+  background: #fff;
+  border-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 10px 10px;
+  overflow: hidden;
+}
+
+.img1 {
+  width: 100%;
+}
+
+.card__informacion {
+  padding: 15px 20px;
+}
+
+.card__title, h2 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.card__fecha {
+  font-size: 11px;
+  color: #9d9d9d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.card__descripcion {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card__boton {
+  padding: 20px 0;
+}
+
+.boton {
+  padding: 10px;
+  background-color: #1c2563;
+  color: white;
+  border: none;
+}
+
+/*diseño tablet*/
+@media (min-width: 768px) {
+  .card__title, h2 {
+    font-size: 20px;
+  }
+  .card__title, h2 {
+    font-size: 20px;
+  }
+  .card__fecha {
+    font-size: 15px;
+  }
+  .card__descripcion {
+    font-size: 15px;
+  }
+}
+/*diseño tablet*/
+/*sec5__noticias*/
+.sec5__noticia {
+  padding: 30px 0;
+  width: 100%;
+}
+
+.card__img {
+  padding: 0 15px;
+}
+
+.img__2 {
+  width: 100%;
+}
+
+.grid__row {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.grid__sec5 {
+  margin: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 1/6;
+}
+.grid__sec5 .sec5__title {
+  grid-column: 2/4;
+}
+.grid__sec5 .title {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*estacados*/
+.img3 {
+  width: 100%;
+}
+
+.card__destacado {
+  background: #fff;
+  border-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 10px 10px;
+  overflow: hidden;
+}
+
+/*estacados*/
+@media (min-width: 1200px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+  }
+  /*estacados*/
+  .grid__destacados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    /*estacados*/
+  }
+  .grid__destacados .card__destacado--text {
+    padding: 15px;
+  }
+  .grid__destacados .destacados__title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+}
+.sec__ubicacionUsuario {
+  text-align: center;
+  font-size: 20px;
+  margin-right: 5px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec__flex {
+  display: flex;
+  align-items: center;
+}
+.sec__flex .temperatura {
+  font-size: 18px;
+  margin-right: 0px;
+  font-weight: bold;
+}
+.sec__flex .icon {
+  font-size: 25px;
+}
+
+.sec__clima--cuidades {
+  display: flex;
+  justify-content: center;
+  column-gap: 20PX;
+  flex-wrap: nowrap;
+}
+.sec__clima--cuidades .sec__ciudadesClima {
+  width: 219px;
+  height: 190px;
+  padding: 20px;
+  margin-top: 30PX;
+  border-radius: 30px;
+  background-color: #1c2563;
+}
+.sec__clima--cuidades .sec__ciudadesClima .title__ciudad {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.sec__clima--cuidades .sec__ciudadesClima .sec__descripcion {
+  padding-top: 10px;
+}
+.sec__clima--cuidades .sec__ciudadesClima .sec__descripcion .temperatura__cuidades {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.animate__animated.animate__bounce {
+  --animate-duration: 4s;
+}
+
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
+@media screen and (max-width: 768px) {
+  .sec__clima--cuidades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*# sourceMappingURL=inex.css.map */

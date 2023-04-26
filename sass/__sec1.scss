@@ -1,0 +1,175 @@
+.sec1 {
+  width: 100%;
+
+  background: url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .sec1__caja {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 0;
+    .sec1__caja1 {
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 80px 0;
+      .sec1__text {
+        .sec1__p {
+          font-size: 30px;
+        }
+        .sec1__h1{
+          font-size: 40px;
+        }
+
+      }
+    }
+    .sec1__caja2 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      .sec1__card {
+        width: 90%;
+        background-color: white;
+        margin: 10px;
+        width: 100px;
+        height: 120px;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.7);
+
+        .sec1__a {
+          text-decoration: none;
+          color: white;
+          text-align: center;
+        }
+        .sec1__img {
+          width: 70px;
+        }
+      }
+    }
+    .sec1__caja3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      margin: 30px 0;
+      border-radius: 30px;
+      .sec1__card {
+        background-color: #74b3ce;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 30px;
+        .sec1__in {
+          position: relative;
+          margin: 0 10px;
+        }
+
+        .sec1__input {
+          border: 1px solid #74b3ce;
+          height: 40px;
+          width: 300px;
+          padding-right: 30px;
+          border-radius: 30px;
+          padding-left: 10px;
+        }
+      }
+      .sec1__img1 {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+
+      .sec1__vuelos {
+        .sec1__a {
+          display: flex;
+          align-items: center;
+          color: black;
+          text-decoration: none;
+        }
+        .sec1__a:hover {
+          color: white;
+        }
+
+        .sec1__img {
+          width: 20px;
+          margin: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+/*tablet*/
+@media screen and (max-width: 768px){
+  .sec1__caja {
+    display: block;
+    
+    .sec__clima{
+      margin: 150px;
+    }
+  }
+}
+
+/*tablet*/
+
+@media screen and (max-width: 810px) {
+  .sec1 {
+    .sec1__caja {
+      .sec1__caja1 {
+        flex-direction: column;
+      }
+    }
+
+    .sec1__caja3 {
+      .sec1__card {
+        display: flex;
+        flex-direction: column;
+        .sec1__in {
+        }
+
+        .sec1__input {
+        }
+      }
+      .sec1__img1 {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .sec1 {
+    .sec1__caja {
+      .sec1__caja1 {
+        flex-direction: column;
+      }
+    }
+
+    .sec1__caja3 {
+      .sec1__card {
+        display: flex;
+        flex-direction: column;
+
+        .sec1__input {
+          width: 100px;
+        }
+
+        .sec1__img {
+        }
+      }
+    }
+  }
+}
